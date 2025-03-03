@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
 
         euroInput = findViewById(R.id.EuroInput);
         usdButton = findViewById(R.id.USDButton);
-        gbpButton = findViewById(R.id.GDBButton);
+        gbpButton = findViewById(R.id.GDPButton);
         resultText = findViewById(R.id.ResultText);
 
 
