@@ -19,7 +19,7 @@
         app:layout_constraintTop_toBottomOf="@+id/EuroInput" />
 
     <Button
-        android:id="@+id/GDBButton"
+        android:id="@+id/GDPButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Muunna punniksi"
