@@ -2,22 +2,18 @@ package com.example.vk8;
 
 import android.os.Bundle;
 
-import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.graphics.Insets;
-import androidx.core.view.ViewCompat;
-import androidx.core.view.WindowInsetsCompat;
+
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
-import androidx.appcompat.app.AppCompatActivity;
 
 
 public class MainActivity extends AppCompatActivity {
 
     private EditText euroInput;
-    private Button usdButton, gbpButton;
+    private Button usdButton, gdbButton;
     private TextView resultText;
 
     @Override
@@ -27,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
 
         euroInput = findViewById(R.id.EuroInput);
         usdButton = findViewById(R.id.USDButton);
-        gbpButton = findViewById(R.id.GDBButton);
+        gdbButton = findViewById(R.id.GDBButton);
         resultText = findViewById(R.id.ResultText);
 
 
@@ -38,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        gbpButton.setOnClickListener(new View.OnClickListener() {
+        gdbButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 convertCurrency(0.83, "£");

@@ -45,14 +45,6 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/textView"
-        android:layout_width="620dp"
-        android:layout_height="1dp"
-        android:text="TextView"
-        tools:layout_editor_absoluteX="-12dp"
-        tools:layout_editor_absoluteY="472dp" />
-
-    <TextView
         android:id="@+id/ResultText"
         android:layout_width="108dp"
         android:layout_height="80dp"
